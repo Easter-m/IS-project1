@@ -30,6 +30,7 @@ $stmt->close();
         <dt>Course</dt><dd><?= e($course) ?></dd>
         <dt>Registered</dt><dd><?= e($created) ?></dd>
     </dl>
+    <a class="btn" href="feedback.php">Feedback</a>
     <a class="btn" href="logout.php">Log out</a>
 </div>
 </body>
